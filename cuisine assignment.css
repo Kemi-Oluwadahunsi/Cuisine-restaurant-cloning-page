@@ -1,0 +1,432 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: url(background\ image\ real_2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+
+/*main{
+    border: 1px solid blue;
+}*/
+
+main section.Firstseen{
+    float: left;
+    width: 50%;
+    /*border: 1px solid black;*/
+    margin-left: 16%;
+    margin-top: 6.5%;
+    position: absolute;
+    z-index: 2;
+    box-shadow: 5px 2px 95px 1px  gray;
+   
+    
+}
+
+.Secondseen{
+    float: right;
+    width: 35%;
+    /*border: 1px solid black;*/
+    margin-right: 2.5%;
+   
+    
+
+}
+
+nav *{
+    float: left;
+    margin-left: 15px;
+  
+    
+}
+
+.faceoff{
+    clear: both;
+    margin-left: 20px;
+    width: 30%;
+    font-size: 1.8em;
+    padding-top: 5%;
+}
+
+nav li{
+    margin: 0 2px;
+    list-style-type: none;
+    
+}
+
+.number1{
+    height: 300px;
+    background: url(background\ image\ real_1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+img{
+    margin-top: 15px;
+}
+
+.buto {
+    padding: 20px 15px 0 0;
+    border: none;
+    background: none;
+}
+
+.shopcart{
+    padding: 20px 0 0 8%;
+}
+
+.example{
+    width: 250px;
+    height: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid rgb(184, 179, 179);
+}
+
+.example > i{
+    color: black;
+    font-size: 12px;
+}
+
+.example > input{
+    flex: 1;
+    height: 20px;
+    border: none;
+    outline: none;
+    font-size: 10px;
+}
+
+.loc{
+    padding-right: 35px;
+    text-align: center;
+    justify-items: center;
+    background-color: orange;;
+}
+
+.locbut{
+    background: orange;
+    border: 1px solid orange;
+}
+
+.faceb, .twit, .insta{
+    font-size: 60%;
+    display: inline-block;
+    padding: 10px 0 0 20px;
+    color: black;
+}
+
+.fac{
+    display: block;
+    color: orange ;
+}
+
+.number2{
+    height: 300px;
+    background: url(background\ body.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: left;
+}
+
+.numtwo{
+    float: right;
+    width: 30%;
+    margin: 5% 15% 0 0;
+    
+}
+
+.numform2 > input{
+    width: 40%;
+    background: orange;
+    color: white;
+    display: inline-block;
+    height: 30px;
+    border-radius: 1.5px;
+    font-size: x-small;
+    border: none;
+}
+
+.butto{
+    height: 30px;
+    display: inline-block;
+    background: rgb(240, 182, 76);
+    border-radius: 1.5px;
+    font-size: x-small;
+    border: none;
+    margin-right: 5px;
+}
+
+.secondsp{
+    font-size: x-small;
+    color: orange;
+}
+
+.par1{
+    font-size: 10px;
+}
+
+.number3{
+    height: 255px;
+    text-align: center;
+    justify-items: center;
+    background: white;
+    background-size: 100%;
+    width: 100%;
+    display: inline-block;
+    
+}
+
+.num3ul > li{
+    float: left;
+    list-style-type: none;
+    margin:0 20px;
+    font-size: x-small;
+    width: 10px;
+    
+    
+}
+
+.num3ulsec{
+    width: 50%;
+    margin: 0 30%;
+    
+}
+
+.num3ula{
+    display: inline-block;
+    border-bottom: 1px solid black;
+}
+
+.number3 >.num3span{
+    font-size: x-small;
+    color: orange;
+    margin-top: 5%;
+    display: inline-block;
+}
+
+.boxsec *{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    float: left;
+    margin: 10px;
+}
+
+.boxsec{
+    height: 110px;
+    clear: both;
+    width: 80%;
+    margin-left: 20%;
+    margin-top: 2%;
+    display: inline-block;
+}
+
+.number3-1{
+    background: url(single\ sec2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.number3-2{
+    background: url(section\ small\ 1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.number3-3{
+    background: url(single\ sec\ 3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.number3-4{
+    background: url(single\ sec\ 4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.secseen1{
+    background: rgb(235, 235, 248);
+    height: 200px;
+}
+
+.secseen11{
+    height: 200px;
+    clear: both;
+    width: 100%;
+    margin-left: 8%;
+    margin-top: 2%;
+    display: inline-block;
+    
+}
+
+.secseen11 *{
+    height: 120px;
+    width: 100px;
+    border: 1px solid black;
+    float: left;
+    margin: 10px;
+}
+.sseen1{
+    background: url(single\ sec\ 5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sseen2{
+    background: url(single\ sec\ 6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sseen3{
+    background: url(single\ sec\ 7.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sseen4{
+    background: url(single\ sec\ 4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.secseen2{
+    height: 500px;
+    background: url(tea-being-poured-into-teacup.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-content: center;
+  
+}
+
+.secseen2-1 > span{
+    font-size: x-small;
+}
+
+.secseen2span{
+    color: orange;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.secseen2-1{
+    text-align: center;
+}
+
+.iconsp{
+    font-size: 18px;
+    color: black;
+}
+
+.secseenh5{
+    color: orange;
+    font-size: 1.5em;
+    margin-top: -1px;
+    font-weight: bold;
+}
+
+.open1, .open2{
+    float: left;
+    width: 40%;
+    margin-top: -40px;
+}
+
+.open1{
+    margin-left: 5%;
+
+}
+
+.open1 p{
+    font-size: x-small;
+}
+
+.open2 p{
+    font-size: x-small;
+}
+
+.open1 p+p{
+    font-size: medium;
+    font-weight: bold;
+}
+
+.open2 p+p{
+    font-size: medium;
+    font-weight: bold;
+}
+
+.secseen3{
+    height: 300px;
+    background: white;
+    text-align: center;
+}
+
+.secseen3 > span.testy{
+    color: orange;
+    font-size: x-small;
+    margin-top: 10%;
+    display: inline-block;
+
+}
+
+.custy{
+    font-size: 1.5em;
+    margin-top: -2px;
+}
+
+.john{
+    margin-top: -3px;
+    font-weight: lighter;
+   
+}
+
+.art{
+    font-size: xx-small;
+    font-weight: lighter;
+    display: block;
+    margin-top: -2%;
+    margin-left: 10px;
+    
+
+}
+
+.star{
+    
+    display: block;
+    color: orange;
+    font-size: x-small;
+    margin: 10px;
+    text-align: center;
+}
+
+.paralast{
+    font-size: x-small;
+    width: 70%;
+    justify-items: center;
+    text-align: center;
+    display: inline-block;
+    font-style: italic;
+}
+
+.jphoto{
+    margin-top: -5px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.call{
+    border: 1px solid orange;
+    border-radius: 50%;
+    margin-top: -20px;
+    margin-left: 7px;
+}
